@@ -1,0 +1,145 @@
+{
+  "purpose": "12 author-written English diagnostics using a fictional copywriting brief; not independent or paid-user validation",
+  "cases": [
+    {
+      "text": "Introduce new subscribers to the product over an onboarding email sequence.",
+      "expected": "B2",
+      "actual": "B2",
+      "signal": "Related deliverable",
+      "score": 0.8319,
+      "margin": 0.4367,
+      "correct": true,
+      "lexical_top1": "B2",
+      "latency_ms": 176.76
+    },
+    {
+      "text": "Revise the landing page headline and benefits to sound warmer.",
+      "expected": "B1",
+      "actual": "B1",
+      "signal": "Related deliverable",
+      "score": 0.534,
+      "margin": 0.2221,
+      "correct": true,
+      "lexical_top1": "B1",
+      "latency_ms": 8.17
+    },
+    {
+      "text": "Can you welcome people who just joined our mailing list?",
+      "expected": "B2",
+      "actual": "B2",
+      "signal": "Related deliverable",
+      "score": 0.551,
+      "margin": 0.3644,
+      "correct": true,
+      "lexical_top1": "B2",
+      "latency_ms": 6.95
+    },
+    {
+      "text": "I want another feedback cycle on the existing draft.",
+      "expected": "B3",
+      "actual": "B3",
+      "signal": "Related deliverable",
+      "score": 0.4738,
+      "margin": 0.2175,
+      "correct": true,
+      "lexical_top1": "B3",
+      "latency_ms": 7.51
+    },
+    {
+      "text": "Let's talk about who the brand is for before you start writing.",
+      "expected": "B4",
+      "actual": "B4",
+      "signal": "Related deliverable",
+      "score": 0.5346,
+      "margin": 0.1865,
+      "correct": true,
+      "lexical_top1": "B4",
+      "latency_ms": 6.83
+    },
+    {
+      "text": "Create the main web page text that convinces visitors to sign up.",
+      "expected": "B1",
+      "actual": "B2",
+      "signal": "Ambiguous match",
+      "score": 0.4458,
+      "margin": 0.0643,
+      "correct": false,
+      "lexical_top1": "B3",
+      "latency_ms": 6.78
+    },
+    {
+      "text": "Make the series of introductory messages for recent signups longer.",
+      "expected": "B2",
+      "actual": "B2",
+      "signal": "Related deliverable",
+      "score": 0.5401,
+      "margin": 0.2235,
+      "correct": true,
+      "lexical_top1": "B3",
+      "latency_ms": 6.98
+    },
+    {
+      "text": "One more pass to incorporate my edits into the approved text.",
+      "expected": "B3",
+      "actual": "B3",
+      "signal": "Related deliverable",
+      "score": 0.5398,
+      "margin": 0.2768,
+      "correct": true,
+      "lexical_top1": "B3",
+      "latency_ms": 6.71
+    },
+    {
+      "text": "Schedule a conversation to discuss positioning and target customers.",
+      "expected": "B4",
+      "actual": "B4",
+      "signal": "Related deliverable",
+      "score": 0.4807,
+      "margin": 0.1256,
+      "correct": true,
+      "lexical_top1": "B4",
+      "latency_ms": 6.71
+    },
+    {
+      "text": "Rewrite the benefits and call to action on the sales page.",
+      "expected": "B1",
+      "actual": null,
+      "signal": "No clear match",
+      "score": 0.3708,
+      "margin": 0.064,
+      "correct": false,
+      "lexical_top1": "B1",
+      "latency_ms": 6.64
+    },
+    {
+      "text": "Edit a cinematic video with animated captions and background music.",
+      "expected": null,
+      "actual": null,
+      "signal": "No clear match",
+      "score": 0.2016,
+      "margin": 0.0549,
+      "correct": true,
+      "lexical_top1": "B2",
+      "latency_ms": 6.66
+    },
+    {
+      "text": "Install a PostgreSQL database with a nightly backup job.",
+      "expected": null,
+      "actual": null,
+      "signal": "No clear match",
+      "score": 0.1136,
+      "margin": 0.0008,
+      "correct": true,
+      "lexical_top1": "B2",
+      "latency_ms": 7.22
+    }
+  ],
+  "correct_including_abstention": 10,
+  "total": 12,
+  "related_top1": 8,
+  "related_total": 10,
+  "lexical_related_top1": 8,
+  "warm_median_ms": 6.83,
+  "cold_first_ms": 176.76,
+  "notes": "Model loading excluded. Baseline is simple token Jaccard with no abstention; compare only related-case top1. Threshold 0.40 and gap 0.08 are heuristics, not calibrated."
+}

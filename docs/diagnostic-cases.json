@@ -1,0 +1,14 @@
+[
+ {"text":"Introduce new subscribers to the product over an onboarding email sequence.","expected":"B2"},
+ {"text":"Revise the landing page headline and benefits to sound warmer.","expected":"B1"},
+ {"text":"Can you welcome people who just joined our mailing list?","expected":"B2"},
+ {"text":"I want another feedback cycle on the existing draft.","expected":"B3"},
+ {"text":"Let's talk about who the brand is for before you start writing.","expected":"B4"},
+ {"text":"Create the main web page text that convinces visitors to sign up.","expected":"B1"},
+ {"text":"Make the series of introductory messages for recent signups longer.","expected":"B2"},
+ {"text":"One more pass to incorporate my edits into the approved text.","expected":"B3"},
+ {"text":"Schedule a conversation to discuss positioning and target customers.","expected":"B4"},
+ {"text":"Rewrite the benefits and call to action on the sales page.","expected":"B1"},
+ {"text":"Edit a cinematic video with animated captions and background music.","expected":null},
+ {"text":"Install a PostgreSQL database with a nightly backup job.","expected":null}
+]

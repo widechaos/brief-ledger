@@ -1,0 +1,11 @@
+file '01-example.jpg'
+duration 7
+file '02-review.jpg'
+duration 7
+file '03-decision.jpg'
+duration 7
+file '04-notes.jpg'
+duration 7
+file '05-mobile.jpg'
+duration 7
+file '05-mobile.jpg'

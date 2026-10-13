@@ -1,0 +1,13 @@
+{
+  "brief": [
+    {"text":"Write English copy for one landing page: headline, benefits and call to action.","quantity":1,"unit":"page"},
+    {"text":"Write a welcome email sequence for new subscribers introducing the product.","quantity":3,"unit":"email"},
+    {"text":"Include two rounds of revisions to the approved written copy.","quantity":2,"unit":"round"},
+    {"text":"Hold one hour of discovery conversation about the brand and audience.","quantity":1,"unit":"hour"}
+  ],
+  "requests":[
+    {"text":"Introduce new subscribers to the product over an onboarding email sequence.","quantity":5,"unit":"email"},
+    {"text":"Revise the landing page headline and benefits to sound warmer.","quantity":1,"unit":"page"},
+    {"text":"Edit a cinematic video with animated captions and background music.","quantity":1,"unit":"item"}
+  ]
+}
